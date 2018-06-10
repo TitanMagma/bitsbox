@@ -1,0 +1,8 @@
+fill('basketballcourt')
+size = 200
+speed = 1
+c = stamp('basketballplayer',size)
+function drag() {
+c.move(x,y,speed)
+c.aim(x,y)
+}
